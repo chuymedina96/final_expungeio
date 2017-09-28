@@ -155,25 +155,3 @@ $(document).ready(function() {
 		}//end for loop
 	});//end quoteButton function
 });
-//end document ready
-// Or, to start a slideshow, just pass in an array of images
-/*backstretch-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    background-image: repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent
-        2px, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.1) 3px
-    );
-}
-$("header").css(header);
-$("header").backstretch([
-    "../img/chitowncity.jpg",
-    "../img/moon.jpg"
-], {duration: 5000});
-*/

@@ -32,11 +32,7 @@ h6 {
     margin: 0 auto;
 }
 header {
-    background: linear-gradient(rgba(0, 0, 0, .7), transparent 100%), linear-gradient(0deg, #43BDBD, transparent), url("../img/chitowncity.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: black;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -757,22 +753,22 @@ section.legal {
   animation: imageAnimation 50s linear infinite; 
 }
 .slideshow li:nth-child(1) { 
-  background-image: url(https://static.pexels.com/photos/70497/pexels-photo-70497.jpeg)
+  background: linear-gradient(rgba(0, 0, 0, .7), transparent 100%), linear-gradient(0deg, #43BDBD, transparent), url(../img/chitowncity.jpg)
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://goldendragonned.com/images/beef-stir-fry.jpg);
+  background: linear-gradient(0deg, #43BDBD, transparent),linear-gradient(rgba(0, 0, 0, .7), transparent 100%), url(../img/mikva.jpg);  
   animation-delay: 5s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(https://www.eatingthaifood.com/wp-content/uploads/2014/01/thai-chicken-basil-recipe.jpg);
+  background-image: url(../img/chitowncity.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://giordanos.com/content/uploads/reheating-deep-dish-pizza.png);
+  background-image: url(../img/chitowncity.jpg);
   animation-delay: 15s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(http://sanchosmexican.com/wp-content/uploads/2015/01/taco-slide1.jpg);
+  background-image: url(../img/chitowncity.jpg);
   animation-delay: 20s; 
 }
 @keyframes imageAnimation { 
