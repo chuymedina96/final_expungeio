@@ -756,7 +756,7 @@ section.legal {
   background: linear-gradient(rgba(0, 0, 0, .7), transparent 100%), linear-gradient(0deg, #43BDBD, transparent), url(../img/chitowncity.jpg)
 }
 .slideshow li:nth-child(2) { 
-  background: linear-gradient(0deg, #43BDBD, transparent),linear-gradient(rgba(0, 0, 0, .7), transparent 100%), url(../img/mikva.jpg);  
+  background: linear-gradient(0deg, #43BDBD, transparent), linear-gradient(rgba(0, 0, 0, .7), transparent 100%), url(../img/mikva.jpg);  
   animation-delay: 5s; 
 }
 .slideshow li:nth-child(3) { 
