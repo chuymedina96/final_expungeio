@@ -37,7 +37,6 @@ header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    padding-bottom: 180px;
     text-align: center
 }
 
@@ -169,6 +168,7 @@ header .intro-text .skills {
 }
 
 section {
+    height: 800px;
     padding: 100px 0;
 }
 
@@ -180,7 +180,7 @@ section h2 {
 section.success {
     background: #43BDBD;
     color: #fff;
-    height: 1500px;
+    height: 1000px;
 }
 
 @media (max-width: 767px) {
@@ -729,7 +729,7 @@ section.legal {
     color:#fff;
 }
 .slideshow { 
-  position: fixed;
+  position: scroll;
   width: 100%;
   height: 100%;
   top: 0;
@@ -753,14 +753,14 @@ section.legal {
   animation: imageAnimation 50s linear infinite; 
 }
 .slideshow li:nth-child(1) { 
-  background: linear-gradient(rgba(0, 0, 0, .7), transparent 100%), linear-gradient(0deg, #43BDBD, transparent), url(../img/chitowncity.jpg)
+  background: linear-gradient(rgba(0, 0, 0, .5), transparent 100%), linear-gradient(#43BDBD, transparent), url(../img/chitowncity.jpg)
 }
 .slideshow li:nth-child(2) { 
-  background: linear-gradient(0deg, #43BDBD, transparent), linear-gradient(rgba(0, 0, 0, .7), transparent 100%), url(../img/mikva.jpg);  
+  background: linear-gradient(0deg, #43BDBD, transparent), linear-gradient(rgba(0, 0, 0, .5), transparent 100%), url(../img/mikva.jpg);  
   animation-delay: 5s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(../img/chitowncity.jpg);
+   background: linear-gradient(rgba(0, 0, 0, .8), transparent 100%), linear-gradient(#43BDBD, transparent), url(../img/chitwo.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(4) { 
